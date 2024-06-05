@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./dougsm_helpers/src",
+        "./ggcnn/src"
+    ]
+}

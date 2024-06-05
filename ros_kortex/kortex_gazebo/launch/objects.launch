@@ -1,0 +1,11 @@
+<launch>
+  
+    <!--<node name="long_box" pkg="gazebo_ros" type="spawn_model" args="-file $(find kortex_gazebo)/objects_urdf/long_block.urdf -urdf -model long_box -x -0 -y 1.15 -z 0.8 -Y 2.2" />-->
+    <!-- <node name="beer" pkg="gazebo_ros" type="spawn_model" args="-file $(find kortex_gazebo)/objects_urdf/beer/model.sdf -sdf -model beer -x 0.6 -y 0.4 -z 0.01 -R 1.57 -Y -0.3665" /> -->
+    <!-- <node name="coke" pkg="gazebo_ros" type="spawn_model" args="-file $(find kortex_gazebo)/objects_urdf/coke_can/model.sdf -sdf -model coke -x 0.2 -y 0.2 -z 0.01 -R 1.57 -Y -0.3665" /> -->
+    <!-- <node name="dropbox" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" args="-file $(find kortex_gazebo)/objects_urdf/dropbox.urdf -urdf -model dropbox -x 0.6 -y 0.3 -z 0.01" /> -->
+    <node name="banana" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" args="-file $(find kortex_gazebo)/objects_urdf/banana.urdf -urdf -model banana -x 0.2 -y 0.0 -z 0.01 -R 1.57 -Y 2.2" />
+    <!-- <node name="cylinder" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" args="-file $(find kortex_gazebo)/objects_urdf/cylinder.urdf -urdf -model cylinder -x 0.3 -y 0.4 -z 0.01" /> -->
+    <!-- <node name="box" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" args="-file $(find kortex_gazebo)/objects_urdf/block.urdf -urdf -model box -x 0.5 -y 0.5 -z 0.01 -Y 2.2" /> -->
+
+  </launch>
